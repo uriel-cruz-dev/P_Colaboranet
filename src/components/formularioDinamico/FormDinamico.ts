@@ -2,7 +2,7 @@ import { defineComponent, ref, computed } from 'vue'
 import origenData from './origen.json'
 
 type OrigenData = {
-  [key: string]: { mostrarInputOrigen: boolean }
+  [key: string]: { mostrarInput: boolean }
 }
 
 const origenDataTyped: OrigenData = origenData
@@ -14,7 +14,7 @@ export default defineComponent({
 
     const mostrarInputOrigen = computed(() => {
       if (origenSeleccionado.value && origenDataTyped[origenSeleccionado.value]) {
-        return origenDataTyped[origenSeleccionado.value].mostrarInputOrigen
+        return origenDataTyped[origenSeleccionado.value].mostrarInput
       }
       return false
     })

@@ -1,0 +1,50 @@
+{
+  "components": [
+    {
+      "id": "checkbox1",
+      "type": "checkbox",
+      "label": "Check to hide components",
+      "controlComponents": ["input1", "input2", "input3"]
+    },
+    {
+      "id": "select1",
+      "type": "select",
+      "label": "Select an option",
+      "options": ["Mexico", "Canada"],
+      "controlComponents": {
+        "Mexico": ["input4", "input5"],
+        "Canada": ["input6"]
+      }
+    },
+    {
+      "id": "input1",
+      "type": "text",
+      "label": "Input 1"
+    },
+    {
+      "id": "input2",
+      "type": "text",
+      "label": "Input 2"
+    },
+    {
+      "id": "input3",
+      "type": "text",
+      "label": "Input 3"
+    },
+    {
+      "id": "input4",
+      "type": "text",
+      "label": "Input 4"
+    },
+    {
+      "id": "input5",
+      "type": "text",
+      "label": "Input 5"
+    },
+    {
+      "id": "input6",
+      "type": "text",
+      "label": "Input 6"
+    }
+  ]
+}
