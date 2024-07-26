@@ -1,0 +1,17 @@
+{
+  "México": {
+    "mostrarInputOrigen": false
+  },
+  "E.U.A.": {
+    "mostrarInputOrigen": false
+  },
+  "Alemania": {
+    "mostrarInputOrigen": true
+  },
+  "Canadá": {
+    "mostrarInputOrigen": false
+  },
+  "Otro": {
+    "mostrarInputOrigen": true
+  }
+}
