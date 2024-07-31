@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Sandra Adams",
+    "group": "Group 1",
+    "image": "https://randomuser.me/api/portraits/women/3.jpg"
+  },
+  {
+    "name": "Ali Connors",
+    "group": "Group 1",
+    "image": "https://randomuser.me/api/portraits/men/4.jpg"
+  },
+  {
+    "name": "Trevor Hansen",
+    "group": "Group 1",
+    "image": "https://randomuser.me/api/portraits/men/5.jpg"
+  },
+  {
+    "name": "Tucker Smith",
+    "group": "Group 1",
+    "image": "https://randomuser.me/api/portraits/men/6.jpg"
+  },
+  {
+    "name": "Britta Holt",
+    "group": "Group 2",
+    "image": "https://randomuser.me/api/portraits/women/7.jpg"
+  }
+]
